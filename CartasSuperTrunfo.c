@@ -9,7 +9,7 @@ int main() {
   char estado;
   char codcarta[3];
   char nome_cidade[50];
-  int populacao;
+  float populacao;
   float areakm;
   float pib;
   int np_turismo;
@@ -18,7 +18,7 @@ int main() {
   char estado2;
   char codcarta2[3];
   char nome_cidade2[50];
-  int populacao2;
+  float populacao2;
   float areakm2;
   float pib2;
   int np_turismo2;
@@ -37,8 +37,8 @@ int main() {
   printf("Nome da cidade %s foi incluido com sucesso\n", nome_cidade);
 
   printf("Digite a população: ");
-  scanf("%d", &populacao);
-  printf("A população %d foi incluido com sucesso\n", populacao);
+  scanf("%f", &populacao);
+  printf("A população %.2f foi incluido com sucesso\n", populacao);
 
   printf("Digite a Área: ");
   scanf("%f", &areakm);
@@ -69,8 +69,8 @@ int main() {
   printf("Nome da cidade %s foi incluido com sucesso\n", nome_cidade2);
 
   printf("Digite a população: ");
-  scanf("%d", &populacao2);
-  printf("A população %d foi incluido com sucesso\n", populacao2);
+  scanf("%f", &populacao2);
+  printf("A população %.2f foi incluido com sucesso\n", populacao2);
 
   printf("Digite a Área: ");
   scanf("%f", &areakm2);
@@ -89,7 +89,7 @@ int main() {
   printf("Estado: %c\n", estado);
   printf("Codigo da carta: %c%s\n", estado,codcarta);
   printf("Nome da cidade: %s\n", nome_cidade);
-  printf("População: %d\n", populacao);
+  printf("População: %.2f\n", populacao);
   printf("Área: %.2f km²\n", areakm);
   printf("PIB: %.2f\n", pib);
   printf("Pontos turisticos: %d\n", np_turismo);
@@ -98,7 +98,7 @@ int main() {
   printf("Estado: %c\n", estado2);
   printf("Codigo da carta: %c%s\n", estado2,codcarta2);
   printf("Nome da cidade: %s\n", nome_cidade2);
-  printf("População: %d\n", populacao2);
+  printf("População: %.2f\n", populacao2);
   printf("Área: %.2f km²\n", areakm2);
   printf("PIB: %.2f\n", pib2);
   printf("Pontos turisticos: %d\n", np_turismo2);
